@@ -20,11 +20,9 @@ public class Employee {
     public String getName(){
         return name;
     }
-
     public double getHoursWorked() {
         return hoursWorked;
     }
-
     public double getPayRate() {
         return payRate;
     }
@@ -33,25 +31,18 @@ public class Employee {
     }
 
     //Setters
-
-
     public void setEmployeeId(int employeeId) {
         this.employeeId = employeeId;
     }
-
     public void setName(String name) {
         this.name = name;
     }
-
     public void setHoursWorked(double hoursWorked) {
         this.hoursWorked = hoursWorked;
     }
-
     public void setPayRate(double payRate) {
         this.payRate = payRate;
     }
-
     public static void main(String[] args) {
-
     }
 }
